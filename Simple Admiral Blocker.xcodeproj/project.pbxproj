@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3476ABFB2BF999AC00DC3BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3476ABFA2BF999AC00DC3BB8 /* AppDelegate.swift */; };
+		3476ABFD2BF999AC00DC3BB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3476ABFC2BF999AC00DC3BB8 /* SceneDelegate.swift */; };
+		3476AC002BF999AC00DC3BB8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABFF2BF999AC00DC3BB8 /* Base */; };
+		3476AC032BF999AC00DC3BB8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC022BF999AC00DC3BB8 /* Base */; };
+		3476AC0C2BF999AC00DC3BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3476AC0B2BF999AC00DC3BB8 /* AppDelegate.swift */; };
+		3476AC0F2BF999AC00DC3BB8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC0E2BF999AC00DC3BB8 /* Base */; };
+		3476AC172BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3476AC162BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3476AC212BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3476AC202BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3476AC272BF999AC00DC3BB8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABEB2BF999AB00DC3BB8 /* Base */; };
+		3476AC282BF999AC00DC3BB8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABEB2BF999AB00DC3BB8 /* Base */; };
+		3476AC292BF999AC00DC3BB8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABEC2BF999AB00DC3BB8 /* Icon.png */; };
+		3476AC2A2BF999AC00DC3BB8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABEC2BF999AB00DC3BB8 /* Icon.png */; };
+		3476AC2B2BF999AC00DC3BB8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABED2BF999AB00DC3BB8 /* Style.css */; };
+		3476AC2C2BF999AC00DC3BB8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABED2BF999AB00DC3BB8 /* Style.css */; };
+		3476AC2D2BF999AC00DC3BB8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABEE2BF999AB00DC3BB8 /* Script.js */; };
+		3476AC2E2BF999AC00DC3BB8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABEE2BF999AB00DC3BB8 /* Script.js */; };
+		3476AC2F2BF999AC00DC3BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3476ABEF2BF999AB00DC3BB8 /* ViewController.swift */; };
+		3476AC302BF999AC00DC3BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3476ABEF2BF999AB00DC3BB8 /* ViewController.swift */; };
+		3476AC312BF999AC00DC3BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABF02BF999AC00DC3BB8 /* Assets.xcassets */; };
+		3476AC322BF999AC00DC3BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3476ABF02BF999AC00DC3BB8 /* Assets.xcassets */; };
+		3476AC332BF999AC00DC3BB8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3476ABF22BF999AC00DC3BB8 /* SafariWebExtensionHandler.swift */; };
+		3476AC342BF999AC00DC3BB8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3476ABF22BF999AC00DC3BB8 /* SafariWebExtensionHandler.swift */; };
+		3476AC4B2BF999AC00DC3BB8 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC462BF999AC00DC3BB8 /* icon48.png */; };
+		3476AC4C2BF999AC00DC3BB8 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC472BF999AC00DC3BB8 /* icon128.png */; };
+		3476AC4D2BF999AC00DC3BB8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC482BF999AC00DC3BB8 /* manifest.json */; };
+		3476AC4E2BF999AC00DC3BB8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC492BF999AC00DC3BB8 /* content.js */; };
+		3476AC4F2BF999AC00DC3BB8 /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC4A2BF999AC00DC3BB8 /* icon32.png */; };
+		3476AC502BF999AC00DC3BB8 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC462BF999AC00DC3BB8 /* icon48.png */; };
+		3476AC512BF999AC00DC3BB8 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC472BF999AC00DC3BB8 /* icon128.png */; };
+		3476AC522BF999AC00DC3BB8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC482BF999AC00DC3BB8 /* manifest.json */; };
+		3476AC532BF999AC00DC3BB8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC492BF999AC00DC3BB8 /* content.js */; };
+		3476AC542BF999AC00DC3BB8 /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3476AC4A2BF999AC00DC3BB8 /* icon32.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3476AC182BF999AC00DC3BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3476ABE42BF999AB00DC3BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3476AC152BF999AC00DC3BB8;
+			remoteInfo = "Simple Admiral Blocker Extension (iOS)";
+		};
+		3476AC222BF999AC00DC3BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3476ABE42BF999AB00DC3BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3476AC1F2BF999AC00DC3BB8;
+			remoteInfo = "Simple Admiral Blocker Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3476AC3A2BF999AC00DC3BB8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3476AC172BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476AC412BF999AC00DC3BB8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3476AC212BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3476ABEB2BF999AB00DC3BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		3476ABEC2BF999AB00DC3BB8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3476ABED2BF999AB00DC3BB8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		3476ABEE2BF999AB00DC3BB8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		3476ABEF2BF999AB00DC3BB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3476ABF02BF999AC00DC3BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3476ABF22BF999AC00DC3BB8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		3476ABF72BF999AC00DC3BB8 /* Simple Admiral Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Admiral Blocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3476ABFA2BF999AC00DC3BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3476ABFC2BF999AC00DC3BB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3476ABFF2BF999AC00DC3BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3476AC022BF999AC00DC3BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3476AC042BF999AC00DC3BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3476AC092BF999AC00DC3BB8 /* Simple Admiral Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Admiral Blocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3476AC0B2BF999AC00DC3BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3476AC0E2BF999AC00DC3BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3476AC102BF999AC00DC3BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3476AC112BF999AC00DC3BB8 /* Simple Admiral Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Simple Admiral Blocker.entitlements"; sourceTree = "<group>"; };
+		3476AC162BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Simple Admiral Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3476AC1B2BF999AC00DC3BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3476AC202BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Simple Admiral Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3476AC252BF999AC00DC3BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3476AC262BF999AC00DC3BB8 /* Simple Admiral Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Simple Admiral Blocker.entitlements"; sourceTree = "<group>"; };
+		3476AC462BF999AC00DC3BB8 /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = "../../simple-admiral-blocker/simple-admiral-blocker-extension/icon48.png"; sourceTree = "<group>"; };
+		3476AC472BF999AC00DC3BB8 /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = "../../simple-admiral-blocker/simple-admiral-blocker-extension/icon128.png"; sourceTree = "<group>"; };
+		3476AC482BF999AC00DC3BB8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../simple-admiral-blocker/simple-admiral-blocker-extension/manifest.json"; sourceTree = "<group>"; };
+		3476AC492BF999AC00DC3BB8 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../simple-admiral-blocker/simple-admiral-blocker-extension/content.js"; sourceTree = "<group>"; };
+		3476AC4A2BF999AC00DC3BB8 /* icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon32.png; path = "../../simple-admiral-blocker/simple-admiral-blocker-extension/icon32.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3476ABF42BF999AC00DC3BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476AC062BF999AC00DC3BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476AC132BF999AC00DC3BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476AC1D2BF999AC00DC3BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3476ABE32BF999AB00DC3BB8 = {
+			isa = PBXGroup;
+			children = (
+				3476ABE82BF999AB00DC3BB8 /* Shared (App) */,
+				3476ABF12BF999AC00DC3BB8 /* Shared (Extension) */,
+				3476ABF92BF999AC00DC3BB8 /* iOS (App) */,
+				3476AC0A2BF999AC00DC3BB8 /* macOS (App) */,
+				3476AC1A2BF999AC00DC3BB8 /* iOS (Extension) */,
+				3476AC242BF999AC00DC3BB8 /* macOS (Extension) */,
+				3476ABF82BF999AC00DC3BB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3476ABE82BF999AB00DC3BB8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3476ABEF2BF999AB00DC3BB8 /* ViewController.swift */,
+				3476ABF02BF999AC00DC3BB8 /* Assets.xcassets */,
+				3476ABE92BF999AB00DC3BB8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		3476ABE92BF999AB00DC3BB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3476ABEA2BF999AB00DC3BB8 /* Main.html */,
+				3476ABEC2BF999AB00DC3BB8 /* Icon.png */,
+				3476ABED2BF999AB00DC3BB8 /* Style.css */,
+				3476ABEE2BF999AB00DC3BB8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3476ABF12BF999AC00DC3BB8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3476AC452BF999AC00DC3BB8 /* Resources */,
+				3476ABF22BF999AC00DC3BB8 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		3476ABF82BF999AC00DC3BB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3476ABF72BF999AC00DC3BB8 /* Simple Admiral Blocker.app */,
+				3476AC092BF999AC00DC3BB8 /* Simple Admiral Blocker.app */,
+				3476AC162BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex */,
+				3476AC202BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3476ABF92BF999AC00DC3BB8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3476ABFA2BF999AC00DC3BB8 /* AppDelegate.swift */,
+				3476ABFC2BF999AC00DC3BB8 /* SceneDelegate.swift */,
+				3476ABFE2BF999AC00DC3BB8 /* LaunchScreen.storyboard */,
+				3476AC012BF999AC00DC3BB8 /* Main.storyboard */,
+				3476AC042BF999AC00DC3BB8 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		3476AC0A2BF999AC00DC3BB8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3476AC0B2BF999AC00DC3BB8 /* AppDelegate.swift */,
+				3476AC0D2BF999AC00DC3BB8 /* Main.storyboard */,
+				3476AC102BF999AC00DC3BB8 /* Info.plist */,
+				3476AC112BF999AC00DC3BB8 /* Simple Admiral Blocker.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		3476AC1A2BF999AC00DC3BB8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3476AC1B2BF999AC00DC3BB8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		3476AC242BF999AC00DC3BB8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3476AC252BF999AC00DC3BB8 /* Info.plist */,
+				3476AC262BF999AC00DC3BB8 /* Simple Admiral Blocker.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		3476AC452BF999AC00DC3BB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3476AC462BF999AC00DC3BB8 /* icon48.png */,
+				3476AC472BF999AC00DC3BB8 /* icon128.png */,
+				3476AC482BF999AC00DC3BB8 /* manifest.json */,
+				3476AC492BF999AC00DC3BB8 /* content.js */,
+				3476AC4A2BF999AC00DC3BB8 /* icon32.png */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3476ABF62BF999AC00DC3BB8 /* Simple Admiral Blocker (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3476AC3B2BF999AC00DC3BB8 /* Build configuration list for PBXNativeTarget "Simple Admiral Blocker (iOS)" */;
+			buildPhases = (
+				3476ABF32BF999AC00DC3BB8 /* Sources */,
+				3476ABF42BF999AC00DC3BB8 /* Frameworks */,
+				3476ABF52BF999AC00DC3BB8 /* Resources */,
+				3476AC3A2BF999AC00DC3BB8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3476AC192BF999AC00DC3BB8 /* PBXTargetDependency */,
+			);
+			name = "Simple Admiral Blocker (iOS)";
+			productName = "Simple Admiral Blocker (iOS)";
+			productReference = 3476ABF72BF999AC00DC3BB8 /* Simple Admiral Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3476AC082BF999AC00DC3BB8 /* Simple Admiral Blocker (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3476AC422BF999AC00DC3BB8 /* Build configuration list for PBXNativeTarget "Simple Admiral Blocker (macOS)" */;
+			buildPhases = (
+				3476AC052BF999AC00DC3BB8 /* Sources */,
+				3476AC062BF999AC00DC3BB8 /* Frameworks */,
+				3476AC072BF999AC00DC3BB8 /* Resources */,
+				3476AC412BF999AC00DC3BB8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3476AC232BF999AC00DC3BB8 /* PBXTargetDependency */,
+			);
+			name = "Simple Admiral Blocker (macOS)";
+			productName = "Simple Admiral Blocker (macOS)";
+			productReference = 3476AC092BF999AC00DC3BB8 /* Simple Admiral Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3476AC152BF999AC00DC3BB8 /* Simple Admiral Blocker Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3476AC372BF999AC00DC3BB8 /* Build configuration list for PBXNativeTarget "Simple Admiral Blocker Extension (iOS)" */;
+			buildPhases = (
+				3476AC122BF999AC00DC3BB8 /* Sources */,
+				3476AC132BF999AC00DC3BB8 /* Frameworks */,
+				3476AC142BF999AC00DC3BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Admiral Blocker Extension (iOS)";
+			productName = "Simple Admiral Blocker Extension (iOS)";
+			productReference = 3476AC162BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3476AC1F2BF999AC00DC3BB8 /* Simple Admiral Blocker Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3476AC3E2BF999AC00DC3BB8 /* Build configuration list for PBXNativeTarget "Simple Admiral Blocker Extension (macOS)" */;
+			buildPhases = (
+				3476AC1C2BF999AC00DC3BB8 /* Sources */,
+				3476AC1D2BF999AC00DC3BB8 /* Frameworks */,
+				3476AC1E2BF999AC00DC3BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Admiral Blocker Extension (macOS)";
+			productName = "Simple Admiral Blocker Extension (macOS)";
+			productReference = 3476AC202BF999AC00DC3BB8 /* Simple Admiral Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3476ABE42BF999AB00DC3BB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3476ABF62BF999AC00DC3BB8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3476AC082BF999AC00DC3BB8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3476AC152BF999AC00DC3BB8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3476AC1F2BF999AC00DC3BB8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 3476ABE72BF999AB00DC3BB8 /* Build configuration list for PBXProject "Simple Admiral Blocker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3476ABE32BF999AB00DC3BB8;
+			productRefGroup = 3476ABF82BF999AC00DC3BB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3476ABF62BF999AC00DC3BB8 /* Simple Admiral Blocker (iOS) */,
+				3476AC082BF999AC00DC3BB8 /* Simple Admiral Blocker (macOS) */,
+				3476AC152BF999AC00DC3BB8 /* Simple Admiral Blocker Extension (iOS) */,
+				3476AC1F2BF999AC00DC3BB8 /* Simple Admiral Blocker Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3476ABF52BF999AC00DC3BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476AC292BF999AC00DC3BB8 /* Icon.png in Resources */,
+				3476AC002BF999AC00DC3BB8 /* Base in Resources */,
+				3476AC272BF999AC00DC3BB8 /* Base in Resources */,
+				3476AC2D2BF999AC00DC3BB8 /* Script.js in Resources */,
+				3476AC312BF999AC00DC3BB8 /* Assets.xcassets in Resources */,
+				3476AC032BF999AC00DC3BB8 /* Base in Resources */,
+				3476AC2B2BF999AC00DC3BB8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476AC072BF999AC00DC3BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476AC2A2BF999AC00DC3BB8 /* Icon.png in Resources */,
+				3476AC2C2BF999AC00DC3BB8 /* Style.css in Resources */,
+				3476AC0F2BF999AC00DC3BB8 /* Base in Resources */,
+				3476AC2E2BF999AC00DC3BB8 /* Script.js in Resources */,
+				3476AC322BF999AC00DC3BB8 /* Assets.xcassets in Resources */,
+				3476AC282BF999AC00DC3BB8 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476AC142BF999AC00DC3BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476AC532BF999AC00DC3BB8 /* content.js in Resources */,
+				3476AC512BF999AC00DC3BB8 /* icon128.png in Resources */,
+				3476AC522BF999AC00DC3BB8 /* manifest.json in Resources */,
+				3476AC502BF999AC00DC3BB8 /* icon48.png in Resources */,
+				3476AC542BF999AC00DC3BB8 /* icon32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476AC1E2BF999AC00DC3BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476AC4E2BF999AC00DC3BB8 /* content.js in Resources */,
+				3476AC4C2BF999AC00DC3BB8 /* icon128.png in Resources */,
+				3476AC4D2BF999AC00DC3BB8 /* manifest.json in Resources */,
+				3476AC4B2BF999AC00DC3BB8 /* icon48.png in Resources */,
+				3476AC4F2BF999AC00DC3BB8 /* icon32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3476ABF32BF999AC00DC3BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476AC2F2BF999AC00DC3BB8 /* ViewController.swift in Sources */,
+				3476ABFB2BF999AC00DC3BB8 /* AppDelegate.swift in Sources */,
+				3476ABFD2BF999AC00DC3BB8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476AC052BF999AC00DC3BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476AC302BF999AC00DC3BB8 /* ViewController.swift in Sources */,
+				3476AC0C2BF999AC00DC3BB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476AC122BF999AC00DC3BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476AC332BF999AC00DC3BB8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3476AC1C2BF999AC00DC3BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3476AC342BF999AC00DC3BB8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3476AC192BF999AC00DC3BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3476AC152BF999AC00DC3BB8 /* Simple Admiral Blocker Extension (iOS) */;
+			targetProxy = 3476AC182BF999AC00DC3BB8 /* PBXContainerItemProxy */;
+		};
+		3476AC232BF999AC00DC3BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3476AC1F2BF999AC00DC3BB8 /* Simple Admiral Blocker Extension (macOS) */;
+			targetProxy = 3476AC222BF999AC00DC3BB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3476ABEA2BF999AB00DC3BB8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3476ABEB2BF999AB00DC3BB8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		3476ABFE2BF999AC00DC3BB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3476ABFF2BF999AC00DC3BB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3476AC012BF999AC00DC3BB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3476AC022BF999AC00DC3BB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3476AC0D2BF999AC00DC3BB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3476AC0E2BF999AC00DC3BB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3476AC352BF999AC00DC3BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3476AC362BF999AC00DC3BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3476AC382BF999AC00DC3BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDTZ75F9K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Admiral Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.acrossthecloud.Simple-Admiral-Blocker.Extension";
+				PRODUCT_NAME = "Simple Admiral Blocker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3476AC392BF999AC00DC3BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDTZ75F9K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Admiral Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.acrossthecloud.Simple-Admiral-Blocker.Extension";
+				PRODUCT_NAME = "Simple Admiral Blocker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3476AC3C2BF999AC00DC3BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDTZ75F9K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Admiral Blocker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.acrossthecloud.Simple-Admiral-Blocker";
+				PRODUCT_NAME = "Simple Admiral Blocker";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3476AC3D2BF999AC00DC3BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDTZ75F9K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Admiral Blocker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.acrossthecloud.Simple-Admiral-Blocker";
+				PRODUCT_NAME = "Simple Admiral Blocker";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3476AC3F2BF999AC00DC3BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Simple Admiral Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDTZ75F9K4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Admiral Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.acrossthecloud.Simple-Admiral-Blocker.Extension";
+				PRODUCT_NAME = "Simple Admiral Blocker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3476AC402BF999AC00DC3BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Simple Admiral Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDTZ75F9K4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Admiral Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.acrossthecloud.Simple-Admiral-Blocker.Extension";
+				PRODUCT_NAME = "Simple Admiral Blocker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3476AC432BF999AC00DC3BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Simple Admiral Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDTZ75F9K4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Admiral Blocker";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.acrossthecloud.Simple-Admiral-Blocker";
+				PRODUCT_NAME = "Simple Admiral Blocker";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3476AC442BF999AC00DC3BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Simple Admiral Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDTZ75F9K4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Admiral Blocker";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.acrossthecloud.Simple-Admiral-Blocker";
+				PRODUCT_NAME = "Simple Admiral Blocker";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3476ABE72BF999AB00DC3BB8 /* Build configuration list for PBXProject "Simple Admiral Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3476AC352BF999AC00DC3BB8 /* Debug */,
+				3476AC362BF999AC00DC3BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3476AC372BF999AC00DC3BB8 /* Build configuration list for PBXNativeTarget "Simple Admiral Blocker Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3476AC382BF999AC00DC3BB8 /* Debug */,
+				3476AC392BF999AC00DC3BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3476AC3B2BF999AC00DC3BB8 /* Build configuration list for PBXNativeTarget "Simple Admiral Blocker (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3476AC3C2BF999AC00DC3BB8 /* Debug */,
+				3476AC3D2BF999AC00DC3BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3476AC3E2BF999AC00DC3BB8 /* Build configuration list for PBXNativeTarget "Simple Admiral Blocker Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3476AC3F2BF999AC00DC3BB8 /* Debug */,
+				3476AC402BF999AC00DC3BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3476AC422BF999AC00DC3BB8 /* Build configuration list for PBXNativeTarget "Simple Admiral Blocker (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3476AC432BF999AC00DC3BB8 /* Debug */,
+				3476AC442BF999AC00DC3BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3476ABE42BF999AB00DC3BB8 /* Project object */;
+}
