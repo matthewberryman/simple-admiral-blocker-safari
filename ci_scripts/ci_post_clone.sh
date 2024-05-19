@@ -7,3 +7,5 @@
 #  
 
 git clone https://github.com/matthewberryman/simple-admiral-blocker.git
+echo $PWD
+ls -al
