@@ -84,6 +84,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		342EBF072BF9A00200F85CD0 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		3476ABEB2BF999AB00DC3BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		3476ABEC2BF999AB00DC3BB8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		3476ABED2BF999AB00DC3BB8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -146,9 +147,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		342EBF062BF99FD900F85CD0 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				342EBF072BF9A00200F85CD0 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		3476ABE32BF999AB00DC3BB8 = {
 			isa = PBXGroup;
 			children = (
+				342EBF062BF99FD900F85CD0 /* ci_scripts */,
 				3476ABE82BF999AB00DC3BB8 /* Shared (App) */,
 				3476ABF12BF999AC00DC3BB8 /* Shared (Extension) */,
 				3476ABF92BF999AC00DC3BB8 /* iOS (App) */,
